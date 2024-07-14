@@ -11,3 +11,6 @@ futures-util = "0.3.30"
 serde = "1.0.204"
 serde_json = "1.0.120"
 tera = "1.20.0"
+diesel = { version = "2.1.6", features = ["sqlite"] }
+diesel_migrations = "2.2.0"
+dotenvy = "0.15"
